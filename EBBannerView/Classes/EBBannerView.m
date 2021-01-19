@@ -260,7 +260,7 @@ static EBBannerWindow *sharedWindow;
 }
 
 -(CGFloat)fixedY{
-    return ([self isiPhoneX] && [self isPortrait]) ? 33 : kStatusBarHeight;
+    return ([self isiPhoneX] && [self isPortrait]) ? 33 : 20;
 }
 
 -(CGFloat)fixedWidth{
